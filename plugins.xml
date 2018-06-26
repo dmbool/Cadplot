@@ -1,16 +1,15 @@
-﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="" ?>
 <plugins>
-<pyqgis_plugin name="My Plugin" 
+<pyqgis_plugin name="Cadastral Plot" 
 version="0.1.0" 
 plugin_id="227">
 <description>
-<![CDATA[Demonstration of a QGIS Plugin]]>
+<![CDATA[Plot cadastral]]>
 </description>
-<about></about>
+<about><![CDATA[Provide a brief description of the plugin and its purpose]]></about>
 <version>0.1.0</version>
-<qgis_minimum_version>1.8.0</qgis_minimum_version>
-<qgis_maximum_version>2.9.9</qgis_maximum_version>
+<qgis_minimum_version>2.0.0</qgis_minimum_version>
 <homepage>
 <![CDATA[https://code.google.com/p/geospatialpython]]>
 </homepage>
@@ -19,8 +18,7 @@ plugin_id="227">
 https://www.freeiconspng.com/uploads/team-icon-21.png
 </icon>
 <author_name><![CDATA[Deane Leonard M. Bool]]></author_name>
-<download_url> http://geospatialpython.googlecode.com/svn/
-MyPlugin.0.1.0.zip
+<download_url> https://github.com/dmbool/Cadplot/CadastralPlot.0.1.0.zip
 </download_url>
 <uploaded_by><![CDATA[dlmb]]></uploaded_by>
 <create_date>2018-04-26T15:31:19.824333</create_date>
@@ -28,13 +26,13 @@ MyPlugin.0.1.0.zip
 <experimental>True</experimental>
 <deprecated>False</deprecated>
 <tracker>
-<![CDATA[http://code.google.com/p/geospatialpython/issues]]>
+<![CDATA[github.com]]>
 </tracker>
 <repository>
-<![CDATA[https://geospatialpython.googlecode.com/svn/]]>
+<![CDATA[https://github.com/dmbool/Cadplot]]>
 </repository>
 <tags>
-<![CDATA[development,debugging,tools]]></tags>
+<![CDATA[python]]></tags>
 <downloads>0</downloads>
 <average_vote>0</average_vote>
 <rating_votes>0</rating_votes>
